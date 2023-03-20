@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+  font-size: 50px;
+  border-bottom: 3px dotted;
+  width: fit-content;
+  margin: 0 auto;
+  font-family: 'Fasthand', cursive;
+}
+
+.sub_title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.m-t4{
+  margin-bottom: 4rem;
+}
+
+.text {
+  font-size: 23px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+span {
+  color: #8b0991;
+  font-size: 2em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.app_name {
+  text-transform: uppercase;
+  font-size: 75px;
+  font-weight: 900;
+  color: #8b0991;
+
+}
